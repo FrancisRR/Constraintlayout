@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFrament">
+
+    <fragment
+        android:id="@+id/homeFrament"
+        android:name="com.francis.constrainsample.home.HomeFrament"
+        android:label="HomeFrament"
+        tools:layout="@layout/home_fragment">
+
+    </fragment>
+    <fragment
+        android:id="@+id/guideLineFragment"
+        android:name="com.francis.constrainsample.GuideLineFragment"
+        android:label="GuideLineFragment"
+        tools:layout="@layout/guide_line" />
+    <fragment
+        android:id="@+id/barrierFragment"
+        android:name="com.francis.constrainsample.BarrierFragment"
+        android:label="BarrierFragment"
+        tools:layout="@layout/barrier" />
+    <fragment
+        android:id="@+id/biasFragment"
+        android:name="com.francis.constrainsample.BiasFragment"
+        android:label="BiasFragment"
+        tools:layout="@layout/bias" />
+    <fragment
+        android:id="@+id/baseLineFragment"
+        android:name="com.francis.constrainsample.BaseLineFragment"
+        android:label="BaseLineFragment"
+        tools:layout="@layout/barrier" />
+    <fragment
+        android:id="@+id/goneMargineFragment"
+        android:name="com.francis.constrainsample.GoneMargineFragment"
+        android:label="GoneMargineFragment" />
+    <fragment
+        android:id="@+id/ratioFragment"
+        android:name="com.francis.constrainsample.RatioFragment"
+        android:label="RatioFragment"
+        tools:layout="@layout/ratio" />
+    <fragment
+        android:id="@+id/percentDimensionFragment"
+        android:name="com.francis.constrainsample.PercentDimensionFragment"
+        android:label="PercentDimensionFragment"
+        tools:layout="@layout/percent_dimension" />
+    <fragment
+        android:id="@+id/circularPositioningFragment"
+        android:name="com.francis.constrainsample.CircularPositioningFragment"
+        android:label="CircularPositioningFragment"
+        tools:layout="@layout/circular_positioning" />
+</navigation>

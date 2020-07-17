@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ConstrainSample</string>
+    <string name="base_line">Base Line</string>
+    <string name="bias">Bias</string>
+    <string name="gone_margin">Gone Margin</string>
+    <string name="circular_positioning">Circular Positioning</string>
+    <string name="ratio">Ratio</string>
+    <string name="percent_dimension">Percent Dimension</string>
+    <string name="guide_line">Guide Line</string>
+    <string name="barrier">Barrier</string>
+</resources>
